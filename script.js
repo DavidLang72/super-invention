@@ -18,7 +18,7 @@ function writePassword() {
       var freshPassword = genPassword();
       passwordText.value = freshPassword;
     } else {
-      passwordTest.value = "";
+      passwordText.value = "";
     }
 }
 
